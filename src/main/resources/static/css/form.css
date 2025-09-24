@@ -1,0 +1,78 @@
+/* =========================
+   FORMULARIO DE EMPLEADOS
+   ========================= */
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Card del formulario */
+.card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+/* Título */
+.card h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.form-group label {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 6px;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Inputs con error */
+.form-control.alert-danger {
+    border: 2px solid #dc3545 !important;
+    background-color: #f8d7da;
+}
+
+/* Mensajes de error */
+.form-text.text-danger {
+    font-size: 0.85rem;
+    margin-top: 3px;
+    font-style: italic;
+}
+
+/* Botón */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+}

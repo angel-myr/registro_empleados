@@ -1,0 +1,93 @@
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   NAVBAR
+   ========================= */
+.navbar {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/* =========================
+   CONTENEDORES
+   ========================= */
+.container {
+    margin-top: 20px;
+}
+
+/* =========================
+   ALERTAS PERSONALIZADAS
+   ========================= */
+.alert {
+    border-radius: 8px;
+    font-size: 0.95rem;
+    padding: 12px 18px;
+}
+
+.alert-primary {
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    color: #004085;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+/* =========================
+   BOTONES
+   ========================= */
+.btn {
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+}

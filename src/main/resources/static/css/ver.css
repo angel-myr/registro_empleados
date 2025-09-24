@@ -1,0 +1,49 @@
+/* ===== Detalle de empleado ===== */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Lista de detalles */
+.list-group-item {
+    font-size: 1rem;
+    padding: 12px 16px;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+/* Nombre principal destacado */
+.list-group-item.active {
+    background: #007bff !important;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 6px 6px 0 0;
+}
